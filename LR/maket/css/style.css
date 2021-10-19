@@ -1,6 +1,31 @@
+.list-group{
+    border: none;
+}
+.navigation{
+    max-width: 100%;
+}
+body{
+    background-color: #d2d2d2;
+}
+
+.main-content{
+    background-color: white;
+}
+
 .logo{
     padding-left : -10px;
 
+}
+.btn-outline-info{
+    border-color: white;
+    color: black;
+
+}
+.head-panel{
+    background: black;
+}
+.head-panel-text{
+    color: white;
 }
 
 .list-group{
@@ -10,12 +35,14 @@
 }
 
 .py-5{
-    padding-left: 50px;
+    max-width: 100%;
+
 
 
 }
 .item{
     margin-bottom: 20px;
+
 
 }
 h2{
@@ -35,29 +62,46 @@ h2{
 
 }
 h5{
-margin-right: 800px;
+    margin-right: 800px;
     background: #31a21f;
     color : #d6eaea;
     
 }
-.footer{
-    padding-top: 80px;
-margin-right: 700px;
+
+footer{
+    background: #ffffff;
+    font-size: 15px;
+    margin-left: -50px;
+}
+
+.p{
+    font-size: 15px;
+}
+
+.foot-info{
+    background: #071022;
+}
+
+.information{
+    background: #071022;
+    max-width: 100%;
+
 
 }
-.container_footer{
-    background: #f3f3f3;
-    margin-right: 40px;
-    
-}
-.footer_left{
-    margin-right: 700px;
 
+.but{
+    background-color:#071022;
 
 }
-.info_center{
-    padding-left: 800px;
-    padding-left: 800px;
 
+.but_url{
+   color: white;
+}
+
+
+
+.about{
+   color: white;
+    font-size: 15px;
 
 }
