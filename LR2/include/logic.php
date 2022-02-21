@@ -47,13 +47,12 @@ function db_select_item(): array
             $sql['params'][':name'] = "%{$_GET['name']}%";
         }
 
-        if (!empty($_GET['prov_name'])) {
-            $sql['request'] .= "providers.name = :prov_name";
+         if (!empty($_GET['provider_name'])) {
+            $sql['request'] .= "providers.name = :providers_name";
             $sql['request'] .= "\nAND\n";
 
-            $sql['params'][':prov_name'] = $_GET['prov_name'];
+            $sql['params'][':providers_name'] = $_GET['provider_name'];
         }
-
         if (!empty($_GET['description'])) {
             $sql['request'] .= "items.description LIKE :description";
             $sql['request'] .= "\nAND\n";
